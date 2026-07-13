@@ -17,40 +17,32 @@ A checkpoint becomes active only after stable, independent, provenance-verified 
 
 The effective evidence mass combines confidence, source trust, provenance validity, source independence, and temporal decay. The system stores concise decision summaries and evidence references; it does not require hidden chain-of-thought storage.
 
-## Main capabilities
+## Public v0.3 snapshot
 
-- evidence-weighted convergence score;
-- repeated-cycle stability requirement;
-- independent-source and provenance gates;
-- reversible reopening and revocation;
-- temporal decay and duplicate-source discounting;
-- stateless, raw, summary, static-governed, and reversible-governed comparisons;
-- OpenAI-compatible structured-output backend;
-- controlled convergence simulation and 30-task pilot suite.
+This directory contains:
+
+- a runnable standalone implementation of the convergence mechanism;
+- raw-memory and static-governance baselines;
+- five controlled evidence-stream scenarios;
+- 1,000-episode aggregate results;
+- automated tests for promotion, contradiction reopening, and contamination rejection;
+- the research note and CV evidence block.
+
+The larger modular development package additionally contains the OpenAI-compatible structured-output adapter, temporal pilot runner, four memory conditions, and the 30-task pilot suite. The public snapshot here focuses on the core algorithm and fully reproducible controlled result.
 
 ## Quick start
 
 ```bash
-python -m pip install -e .
+cd projects/open-cycle-mem
+python opencycle_mem_v03.py
 python -m unittest discover -s tests -v
-python -m opencycle_mem.cli simulate --seeds 200
-python -m opencycle_mem.cli pilot --backend heuristic
 ```
-
-## Real-model pilot
-
-```bash
-export OPENCYCLE_API_KEY="..."
-export OPENCYCLE_MODEL="..."
-export OPENCYCLE_BASE_URL="https://api.openai.com/v1"
-python -m opencycle_mem.cli pilot --backend openai
-```
-
-The bundled heuristic and controlled-simulation results validate the implementation and algorithmic behavior only. Real-agent effectiveness requires declared model runs, multiple seeds, stronger tasks, and manual error analysis.
 
 ## Controlled simulation result
 
-Across 1,000 episodes covering clean support, delayed contradiction, low-trust contamination, noisy evidence, and regime shift, OpenCycle-Mem v0.3 achieved 0.9496 mean state accuracy, compared with 0.8000 for static governed memory and 0.5000 for raw memory. Its false-active rate was 0.0501, and obsolete checkpoints reopened in 0.5075 cycles on average. These are controlled algorithmic results, not real-LLM performance claims.
+Across 1,000 episodes covering clean support, delayed contradiction, low-trust contamination, noisy evidence, and regime shift, OpenCycle-Mem v0.3 achieved 0.9496 mean state accuracy, compared with 0.8000 for static governed memory and 0.5000 for raw memory. Its false-active rate was 0.0501, and obsolete checkpoints reopened in 0.5075 cycles on average.
+
+These are controlled algorithmic results, not real-LLM performance claims. Real-agent effectiveness still requires declared model runs, multiple seeds, stronger tasks, and manual error analysis.
 
 ## Research question
 
