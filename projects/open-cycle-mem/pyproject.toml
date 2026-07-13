@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opencycle-mem"
+version = "0.3.0"
+description = "Governed memory and convergent long-horizon reasoning for autonomous agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Livan Zhou"}]
+dependencies = []
+
+[project.scripts]
+opencycle-mem = "opencycle_mem.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

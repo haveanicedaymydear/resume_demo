@@ -1,0 +1,32 @@
+[
+  {
+    "method": "raw_memory",
+    "episodes": 1000,
+    "mean_state_accuracy": 0.5,
+    "false_active_rate": 0.5,
+    "missed_active_rate": 0.0,
+    "mean_convergence_cycle": 0,
+    "mean_reopen_latency": -1,
+    "mean_memory_churn": 1
+  },
+  {
+    "method": "static_governed",
+    "episodes": 1000,
+    "mean_state_accuracy": 0.8,
+    "false_active_rate": 0.1998,
+    "missed_active_rate": 0.0003,
+    "mean_convergence_cycle": 1.005,
+    "mean_reopen_latency": -1,
+    "mean_memory_churn": 0.8
+  },
+  {
+    "method": "opencycle_v0.3",
+    "episodes": 1000,
+    "mean_state_accuracy": 0.9496,
+    "false_active_rate": 0.0501,
+    "missed_active_rate": 0.0003,
+    "mean_convergence_cycle": 1.005,
+    "mean_reopen_latency": 0.5075,
+    "mean_memory_churn": 1.2
+  }
+]
