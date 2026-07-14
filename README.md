@@ -7,10 +7,9 @@ This repository is a structured evidence index for selected research, agent-syst
 ### OpenCycle-Mem
 **Reversible Evidence Convergence and Governed Memory for Long-Horizon Agents**
 
-A runnable public snapshot with reversible checkpoints, provenance-aware evidence weighting, raw-memory and static-governance baselines, five controlled evidence-stream scenarios, 1,000-episode aggregate results, and automated tests.
+A standalone runnable repository with reversible checkpoints, provenance-aware evidence weighting, raw-memory and static-governance baselines, five controlled evidence-stream scenarios, 1,000-episode aggregate results, automated tests, and CI.
 
-- [Project directory](projects/open-cycle-mem/)
-- [README](projects/open-cycle-mem/README.md)
+- [Standalone repository](https://github.com/haveanicedaymydear/OpenCycle-Mem)
 
 ### DTD-LRC
 **Uncertainty-Gated Evidence Escalation for AI-Text Detection**
@@ -22,13 +21,16 @@ First-author manuscript submitted to UncertaiNLP 2026 at EMNLP.
 ### Unlock-Driven Competence Gap Discovery
 **A Minimal Architecture for Developmental Agency**
 
-Ongoing research on agents that infer an internal skill-unlock graph from their own trajectories and select competencies by unlock potential and feasibility. A dedicated public repository is being prepared.
+Ongoing sole-author research on agents that infer an internal skill-unlock graph from their own trajectories and select competencies by unlock potential and feasibility. The standalone repository currently contains a runnable transparent frontier selector, tests, and the planned Craftax evaluation protocol.
+
+- [Standalone repository](https://github.com/haveanicedaymydear/Unlock-Driven-Competence-Gap-Discovery)
 
 ## Standalone public repositories
 
 - [Auto-DocAgent](https://github.com/haveanicedaymydear/Auto-DocAgent) — multi-agent document generation and validation
 - [AI for Science Lab](https://github.com/haveanicedaymydear/yohan-ai4science-lab) — molecular docking and scientific-agent reproductions
 - [AI-VisionDash](https://github.com/haveanicedaymydear/AI-VisionDash) — computer-vision monitoring dashboard
+- [Trust-Aware IoV Access Control](https://github.com/haveanicedaymydear/Trust-Aware-IoV-Access-Control) — curated evidence for a permissioned-ledger and trust-aware authorisation prototype
 - [FabricK8s](https://github.com/haveanicedaymydear/FabricK8s) — Hyperledger Fabric and Kubernetes evidence
 - [Document-RAG-Chatbot](https://github.com/haveanicedaymydear/Document-RAG-Chatbot) — document-grounded conversational retrieval
 - [Contact-Aware Point-Cloud Demo](https://github.com/haveanicedaymydear/contact-aware-point-cloud-demo) — Open3D visualisation prototype
@@ -38,7 +40,6 @@ Ongoing research on agents that infer an internal skill-unlock graph from their 
 
 The following historical or restricted projects remain evidence archives until enough publishable code, reports, and reproduction material are available:
 
-- [Trust-Aware IoV Access Control](projects/iov-access-control/)
 - [Pairing-Based Multi-Omics Fusion](https://github.com/haveanicedaymydear/resume_demo/tree/cv-evidence-archive/projects/pairing-based-multi-omics-fusion)
 - [IoT Automation and Sensor Control](https://github.com/haveanicedaymydear/resume_demo/tree/cv-evidence-archive/projects/iot-automation-sensor-control)
 - [Full-Stack and Cloud Development](https://github.com/haveanicedaymydear/resume_demo/tree/cv-evidence-archive/projects/full-stack-cloud-development)
