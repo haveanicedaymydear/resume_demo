@@ -18,12 +18,13 @@ First-author manuscript submitted to UncertaiNLP 2026 at EMNLP.
 
 - [Standalone repository](https://github.com/haveanicedaymydear/AI-Text-Cascade-Detect)
 
-### Unlock-Driven Competence Gap Discovery
-**A Minimal Architecture for Developmental Agency**
+### Learning What to Learn Next
+**Sparse Intervention-Calibrated Developmental Leverage for Autonomous Curricula**
 
-Ongoing sole-author research on agents that infer an internal skill-unlock graph from their own trajectories and select competencies by unlock potential and feasibility. The standalone repository currently contains a runnable transparent frontier selector, tests, and the planned Craftax evaluation protocol.
+Ongoing sole-author Developmental Agency research. Proposal v0.3 studies whether a low-cost, agent- and stage-specific cross-skill transfer signal, calibrated by a small number of real checkpoint interventions, can identify which currently learnable capability should receive the next training budget. The public repository contains a transparent DLS scaffold, tests, research plan, evaluation protocol, and an explicit long-term path toward an uncertainty-aware neural Counterfactual Unlock Value predictor.
 
 - [Standalone repository](https://github.com/haveanicedaymydear/Unlock-Driven-Competence-Gap-Discovery)
+- [Public proposal v0.3](https://github.com/haveanicedaymydear/Unlock-Driven-Competence-Gap-Discovery/blob/main/docs/proposal-v0.3.md)
 
 ## Standalone public repositories
 
